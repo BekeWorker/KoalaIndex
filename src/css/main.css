@@ -1,0 +1,827 @@
+@charset "utf-8";
+
+/* 新人专享 */
+#main .new{
+    overflow: hidden;
+}
+
+#main .new img{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
+/* 左侧fixed内容 */
+#main .aside .aside-left{
+    position: fixed;
+    top: 100px;
+    left: 20px;
+    /* border: 1px solid #e9e9e9; */
+    width: 99px;
+}
+
+#main .aside .aside-left .free88{
+    width: 99px;
+    height: 48px;
+    /* border-bottom: 1px solid #e9e9e9; */
+}
+#main .aside .aside-left .hot-brand{
+    display: inline-block;
+    width: 97px;
+    height: 50px;
+    line-height: 50px;
+    border: 1px solid #e9e9e9;
+    margin: 0;
+    background-color: #fff;
+}
+#main .aside .aside-left .hot-brand strong{
+    padding-left: 10px;
+    font-size: 14px;
+}
+#main .aside .aside-left ul{
+    padding-top: 9px;
+    border-left: 1px solid #e9e9e9;
+    border-right: 1px solid #e9e9e9;
+    background-color: #fff;
+}
+
+#main .aside .aside-left ul li{
+    line-height: 32px;
+}
+
+#main .aside .aside-left ul li a{
+    display: block;
+    height:32px;
+    width: 87px;
+    padding-left:10px;
+    
+}
+
+#main .aside .aside-left a:hover{
+    color:#ff1e32
+}
+
+
+
+
+
+
+/* 右侧fixed内容 */
+#main .aside .aside-right{
+    position: fixed;
+    top: 100px;
+    right: 40px;
+} 
+
+#main .aside .aside-right ul{
+    border: 1px solid #e9e9e9;
+    border-bottom: none;
+}
+
+#main .aside .aside-right ul li{
+    border-bottom:1px solid #e9e9e9;
+    text-align: center;
+    background-color: #fff;
+}
+
+#main .aside .aside-right ul li a{
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+}
+/* 签到的hover */
+#main .aside .aside-right ul .item-sign-in {
+    position: relative;
+}
+
+#main .aside .aside-right ul li .daily-sign-in{
+    display: none;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+    right: 80px;
+    width: 66px;
+    height: 32px;
+    padding: 10px;
+    border: 1px solid #e9e9e9;
+    border-radius: 7px;
+    background-color: #fff;
+    /* z-index: 99; */
+}
+
+
+/* 小三角 */
+#main .aside .aside-right ul li .daily-sign-in i{
+    position: absolute;
+    top: 15px;
+    /* bottom: 0;
+    margin: auto 0; */
+    right: -6px;
+    border-top: 1px solid #e9e9e9;
+    border-right: 1px solid #e9e9e9;
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    transform: rotate(45deg);
+}
+
+#main .aside .aside-right ul li .sign-in:hover .daily-sign-in{
+    display: block;
+}
+
+
+#main .aside .aside-right .daily-sign-in span{
+    color: #666;
+}
+/* app的hover */
+#main .aside .aside-right ul .item-app {
+    position: relative;
+}
+
+#main .aside .aside-right ul .new-app{
+    display: none;
+    position: absolute;
+    top: -60px;
+    right: 70px;
+    width: 136px;
+    height: 220px;
+    padding-right: 10px;
+    background-image: url("../img/aside-new-app-bg.png");
+    background-repeat: no-repeat;
+}
+#main .aside .aside-right ul .new-app img{
+    margin: 40px 0 10px;
+    width: 120px;
+    height: 120px;
+}
+
+#main .aside .aside-right ul .new-app p{
+    color: #ff1e32;
+}
+
+#main .aside .aside-right ul .new-app .desc1{
+    font-weight: 700;
+    color: #333;
+    font-size: 14px;
+}
+
+#main .aside .aside-right ul .item-app .app:hover .new-app{
+    display: block;
+}
+
+
+#main .aside .aside-right ul li a:hover{
+    color: #ff1e32;
+    background-color: #f6f6f6;
+}
+
+#main .aside .aside-right ul li i{
+    position: relative;
+    top:7px
+}
+
+#main .aside .aside-right ul li span{
+    display: block;
+}
+
+
+#main .aside .aside-right ul li .iconfont{
+    font-size: 22px;
+}
+
+
+/* 热门品牌 */
+
+#main .hot-brand .hot-brand-title{
+    position: relative;
+    height: 50px;
+    padding-top: 25px;
+    border-top: 1px solid #e9e9e9;
+}
+
+
+#main .hot-brand h2{
+    float: left;
+    color: #999;
+    font-size: 14px;
+    font-weight: normal;
+}
+/* 热品列表-左侧*/
+
+#main .hot-brand h2 span{
+    font-size: 22px;
+    color: #333;
+    font-weight: 700;
+    margin-right: 14px;
+}
+
+/* #main .hot-brand .first{
+    
+} */
+
+/* 热品列表-右侧 */
+#main .hot-brand .mom-right{
+    position: absolute;
+    right: 0;
+    margin-top: 10px;
+}
+
+#main .hot-brand .mom-right a{
+    color: #999;
+    font-size: 14px;
+}
+
+
+
+
+#main .hot-brand{
+    margin-bottom: 30px;
+}
+
+#main .hot-brand .product-left{
+    position: relative;
+    float: left;
+    width: 219px;
+    height: 353px;
+    border-right: 1px solid #e9e9e9;
+}
+
+#main .hot-brand .product-left img{
+    width: 219px;
+    height: 219px;
+}
+
+/* 图片的按钮 */
+
+#main .hot-brand .product-left .control{
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 25%;
+    width: 220px;
+    height: 68px;
+    
+}
+
+#main .hot-brand .product-left a:hover .control{
+    display: block;
+}
+
+#main .hot-brand .product-left .control i{
+    width: 34px;
+    height: 68px;
+    background:url("../img/kl-sprite-01.png");
+}
+
+#main .hot-brand .product-left .control .prev{
+    float: left;
+    background-position: -625px -153px;
+}
+#main .hot-brand .product-left .control .next{
+    float: right;
+    background-position:-670px -153px;
+}
+
+
+/* 左侧产品的信息 */
+#main .hot-brand .product-left .info{
+    height: 134px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+#main .hot-brand .product-left .info .steps li{
+    float: left;
+    height: 2px;
+    background-color: #555;
+    width: 72px;
+    margin-right: 2px;
+}
+
+#main .hot-brand .product-left .info .steps .step-num .step3{
+    width: 71px;
+}
+
+#main .hot-brand .product-left .info .steps .step-num .progress{
+    position: absolute;
+    top: 0;
+    width: 73px;
+    background-color: #ff1e32;
+    border-radius: 1px;
+    /* js动态添加 */
+
+}
+
+#main .hot-brand .product-left .info .steps .step-num{
+    position: relative;
+    margin-right: -2px;
+}
+
+
+#main .hot-brand .product-left .info .name{
+    font-size: 20px;
+    display: block;
+    margin: 30px 0 5px 0;
+}
+
+#main .hot-brand .product-left .info .desc{
+    font-size: 14px;
+}
+
+/* 右侧产品的信息 */
+#main .hot-brand .product-right{
+    float: right;
+    width: 880px;
+    height: 354px;
+    border-top: 1px solid #e9e9e9;
+}
+
+#main .hot-brand .product-right li{
+    position: relative;
+    float: left;
+    width: 219px;
+    height: 175px;
+    border-right: 1px solid #e9e9e9;
+    border-bottom: 1px solid #e9e9e9;
+    background-color: #fff;
+
+    text-align: center;
+
+}
+/* hover前 */
+#main .hot-brand .product-right li img{
+    margin: 10px 0;
+    transform-origin: center 10px;
+}
+#main .hot-brand .product-right li:hover img{
+    transform:scale(.6);
+    transition: transform .5s ease-in-out;
+}
+
+
+#main .hot-brand .product-right li p{
+    font-weight: 700;
+    font-size: 14px;
+    color: #333;
+}
+
+
+#main .hot-brand .product-right li:hover .active{
+    transition: opacity 0.6s ease-in;
+    opacity: 1;
+}
+
+#main .hot-brand .product-right li:hover p{
+    transition: opacity 0.3s ease-in;
+    opacity: 0;
+}
+
+/* hover后 */
+#main .hot-brand .product-right li .active{
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+#main .hot-brand .product-right .active .focus{
+    position: absolute;
+    top: 10px;
+    right: 7px;
+    width: 52px;
+    height: 20px;
+    line-height: 20px;
+    border:1px solid #e9e9e9;
+    color: #999;
+    border-radius: 11px;
+}
+
+#main .hot-brand .product-right .active .focus:hover{
+    background-color: #f5f5f5;
+    
+}
+
+#main .hot-brand .product-right .active span{
+    display: block;
+    margin-top: 95px;
+    color: #999;
+}
+
+#main .hot-brand .product-right .active .enter{
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+
+    bottom: 15px;
+    width: 76px;
+    height: 32px;
+    line-height: 32px;
+    border: 2px solid #ff1e32;
+    border-radius: 18px;
+    font-size: 14px;
+    color: #ff1e32;
+}
+
+#main .hot-brand .product-right .active .enter:hover{
+    background-color: #fff4f5;
+}
+
+/* 底部品牌 */
+
+#main .bottom-brand{
+    margin-bottom: 40px;
+    background-color: #fff;
+}
+
+#main .bottom-brand .title-brand{
+    height: 49px;
+    line-height: 49px;
+    width: 1098px;
+    border-left: 1px solid #e9e9e9;
+    border-top: 1px solid #e9e9e9;
+    border-right: 1px solid #e9e9e9;
+
+}
+
+#main .bottom-brand .title-brand strong{
+    margin-left: 15px;
+    font-size: 16px;
+    color: #000;
+}
+
+
+
+#main .bottom-brand ul{
+    text-align: center;
+    border-left: 1px solid #e9e9e9;
+    border-top: 1px solid #e9e9e9;
+}
+
+
+#main .bottom-brand ul li{
+    float: left;
+    width: 219px;
+    height: 166px;
+    line-height: 166px;
+    border-right: 1px solid #e9e9e9;
+    border-bottom: 1px solid #e9e9e9;
+}
+
+#main .bottom-brand ul .first{
+    width: 218px;
+}
+
+
+/* 母婴专区 */
+#main .mom-baby{
+    border-top: 1px solid #e9e9e9;
+    padding: 25px 0 0;
+
+    font-size: 14px;
+
+    margin-bottom: 30px;
+
+}
+#main .mom-baby .mom-baby-title{
+    height: 50px;
+}
+
+/* 母婴标题 */
+#main .mom-baby h2{
+    float: left;
+    font-size: 22px;
+    color: #333;
+}
+/* 母婴列表-左侧*/
+#main .mom-baby ul{
+    float: left;
+    margin: 10px 0 0 0;
+}
+
+#main .mom-baby ul li{
+    float: left;
+    margin-right: 22px;
+}
+
+#main .mom-baby ul .first{
+    margin:0 15px;
+    color: #999;
+}
+
+#main .mom-baby ul li a{
+    color: #666;
+}
+
+#main .mom-baby ul a:hover,
+#main .mom-baby .mom-right a:hover{
+    text-decoration: underline;
+}
+/* 母婴列表-右侧 */
+#main .mom-baby .mom-right{
+    float: right;
+    margin-top: 10px;
+}
+
+#main .mom-baby .mom-right a{
+    color: #999;
+}
+
+/* 小三角 */
+
+#main .mom-baby .mom-right a i{
+    display: inline-block;
+    height: 7px;
+    width: 7px;
+    border-top: 1px solid #999;
+    border-right: 1px solid #999;
+    margin-bottom: 2px;
+    transform: rotate(45deg);
+}
+
+/* 产品样式 */
+
+#main .mom-baby .mom-product {
+    height: 541px;
+}
+/* 为啥要用margin的负值：这些边框是实实在在多出来的
+要用margin的负值来扩大包含块的宽度使得里边的块元素正常浮动 */
+#main .mom-baby .mom-product .product{
+    margin-right: -5px;
+}
+
+#main .mom-baby .mom-product .product-left{
+    float: left;
+    height: 543px;
+}
+
+/* 组1的样式 */
+#main .mom-baby .mom-product .product-left .group1{
+    float: left;
+    height: 541px;
+    width: 329px;
+    border: 1px solid transparent;
+
+    background-image: url("../img/mother-left-img.jpg");
+}
+
+#main .mom-baby .mom-product .product-left .group1 
+.group1-info{
+    width: 330px;
+    float: left;
+    position: relative;
+    top: 400px;
+    left: 20px;
+}
+
+#main .mom-baby .mom-product .product-left .group1 
+ul li{
+    float: left;
+    
+    text-align: center;
+    line-height: 40px;
+    margin-top: 10px;
+}
+
+#main .mom-baby .mom-product .product-left .group1 
+ul li a{
+    display: inline-block;
+    width: 80px;
+    height: 40px;
+    border: 1px solid #e9e9e9;
+    border-radius: 42px;
+    background-color: #fff;
+    color: #333;
+}
+
+#main .mom-baby .mom-product .product-left .group1 
+ul li a:hover{
+    color: #ff1e32;
+    background: hsla(0,0%,100%,.7);
+    text-decoration: none;
+}
+
+/* 组2的样式 */
+#main .mom-baby .mom-product .product-left .group2{
+    float: left;
+    height: 541px;
+    width: 554px;
+   
+}
+
+#main .mom-baby .mom-product .product-left .group2 div{
+    height: 270px;
+    width: 274px;
+    float: left;
+    border: 1px solid #e9e9e9;
+    margin:0 0 -1px -1px;
+    background-color: #fff;
+}
+/* 组2第一个产品 */
+#main .mom-baby .mom-product .product-left 
+.group2 .product2 {
+    position: relative;
+}
+/* 公共样式 */
+#main .mom-baby .mom-product .product-left 
+.group2 .group2-product a{
+    text-align: center;
+    display: block;
+    padding: 30px 0 0;
+}
+
+#main .mom-baby .mom-product .product-left 
+.group2 .group2-product a h3{
+    font-size: 24px;
+    font-weight: normal;
+}
+
+#main .mom-baby .mom-product .product-left 
+.group2 .group2-product a p{
+    font-size: 14px;
+    margin: 10px 0;
+}
+/* 第一个产品私有样式 */
+#main .mom-baby .mom-product .product-left 
+.group2 .product2 a img{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin:0 auto;
+}
+
+/* 组2第二个产品的样式 */
+
+#main .mom-baby .mom-product .product-left 
+.group2 .product3 {
+    position: relative;
+}
+
+#main .mom-baby .mom-product .product-left 
+.group2 .product3 a img{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin:0 auto;
+}
+
+/* 组2第三个产品的样式 */
+#main .mom-baby .mom-product .product-left 
+.group2 .product4 {
+    position: relative;
+}
+
+#main .mom-baby .mom-product .product-left 
+.group2 .product4 a img{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin:0 auto;
+}
+
+/* 组2第四个个产品的样式 */
+#main .mom-baby .mom-product .product-left 
+.group2 .product5 {
+    position: relative;
+}
+
+#main .mom-baby .mom-product .product-left 
+.group2 .product5 a img{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin:0 auto;
+}
+
+/* 右侧产品的样式 */
+#main .mom-baby .mom-product .product-right{
+    float: right;
+    height: 541px;
+    width: 220px;
+    /* background-color: #fff; */
+} 
+
+#main .mom-baby .mom-product .product-right 
+div{
+    float: left;
+    border: 1px solid #e9e9e9;
+    width: 217px;
+    height: 120px;
+    margin:0 0 -1px -5px;
+    background-color: #fff;
+}
+
+/* 最新热卖样式 */
+#main .mom-baby .mom-product .product-right 
+.product-a{
+    width: 217px;
+    height: 57px;
+    line-height: 57px;
+    color: #333;
+}
+/* 右侧第一个产品的样式 */
+#main .mom-baby .mom-product .product-right 
+.product-b{
+    position: relative;
+}
+/* 产品图片样式 */
+#main .mom-baby .mom-product .product-right 
+.product-b a .mother-right-01{
+    float: left;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto 5px;
+    
+}
+/* 右侧公共样式 */
+#main .mom-baby .mom-product .product-right 
+.product-right-letter ul{
+    float: right;
+    width: 110px;
+    height: 70px;
+    font-size: 12px;
+    margin: 20px 25px 0 0;
+}
+
+#main .mom-baby .mom-product .product-right 
+.product-right-letter ul li{
+    float: left;
+    margin: 0px;
+}
+
+#main .mom-baby .mom-product .product-right 
+.product-right-letter ul .price{
+    margin-top: 10px;
+}
+
+#main .mom-baby .mom-product .product-right 
+.product-right-letter ul .price1 span{
+    font-size: 18px;
+    color: #ff1e32;
+}
+
+#main .mom-baby .mom-product .product-right 
+.product-right-letter ul .price1 strong{
+    font-size: 20px;
+    color: #ff1e32;
+
+    position: relative;
+    right: 7px;
+}
+
+#main .mom-baby .mom-product .product-right 
+.product-right-letter ul .price2{
+    font-size: 14px;
+    text-decoration: line-through;
+}
+
+/* 右侧第二个产品的样式 */
+#main .mom-baby .mom-product .product-right 
+.product-c{
+    position: relative;
+}
+/* 产品图片样式 */
+#main .mom-baby .mom-product .product-right 
+.product-c a .mother-right-02{
+    float: left;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto 5px;
+    
+}
+
+/* 右侧第三个产品的样式 */
+#main .mom-baby .mom-product .product-right 
+.product-d{
+    position: relative;
+}
+/* 产品图片样式 */
+#main .mom-baby .mom-product .product-right 
+.product-d a .mother-right-03{
+    float: left;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto 5px;
+    
+}
+
+/* 右侧第四个产品的样式 */
+#main .mom-baby .mom-product .product-right 
+.product-e{
+    position: relative;
+}
+/* 产品图片样式 */
+#main .mom-baby .mom-product .product-right 
+.product-e a .mother-right-04{
+    float: left;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto 5px;
+    
+}

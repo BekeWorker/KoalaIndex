@@ -1,0 +1,292 @@
+@charset "utf-8";
+
+/* tabbar的样式 */
+#top .tabbar{
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+}
+/* 分类的样式 */
+#top .tabbar .category{
+    position: relative;
+    float: left;
+    width: 164px;
+    background: linear-gradient(90deg,#f00,#ff5160);
+
+} 
+
+#top .tabbar .category .menu{
+    margin-left: 12px;
+}
+
+#top .tabbar .category span{
+    margin-left: 18px;
+    color: #fff;
+}
+
+/* .categories的样式 */
+
+#top .tabbar .categories{
+    position: absolute;
+    left: 0;
+    z-index: 1;
+
+}
+
+#top .tabbar .categories li{
+    width: 159px;
+    height: 40px;
+    line-height: 40px;
+    padding:0 3px 0 2px;
+    background: linear-gradient(90deg,#f00,#ff5160);
+}
+
+#top .tabbar .categories li a{
+    display: block;
+    /* width: 164px; */
+    border-top: 1px solid #ff5160;
+}
+
+#top .tabbar .categories li a img{
+    margin-left: 8px;
+}
+
+#top .tabbar .categories li a i{
+    /* font-size: 22px; */
+    color: #fd8993;
+    position: relative;
+    left: 8px;
+    top: 2px;
+}
+
+#top .tabbar .categories li a .qs-i{
+    padding-left: 27px;
+}
+
+#top .tabbar .categories li .mrcz-active{
+    width: 20px;
+    height: 20px;
+}
+
+#top .tabbar .categories li a:hover{
+    background-color: #fff;
+}
+
+#top .tabbar .categories li a:hover span{
+    color: #ff1e32;
+}
+
+/* hover状态图片替换效果--->公共样式 */
+
+/* #top .tabbar .categories li a .second-active{
+    display: none;
+}
+
+#top .tabbar .categories li a:hover .first{
+    display: none;
+}
+
+#top .tabbar .categories li a:hover .second-active{
+    display: inline;
+} */
+
+
+/* 母婴儿童样式 */
+
+/* 营养保健样式 */
+
+/* 数码家电样式 */
+
+/* 个人洗护样式 */
+
+/* 服饰鞋靴样式 */
+
+/* 运动户外样式 */
+
+/* 手表配饰样式 */
+
+/* 轻奢样式 */
+
+/* 家居生活样式 */
+
+/* 环球美食样式 */
+
+
+
+/* 列表的样式 */
+#top .tabbar .tabbar-list{
+    float: left;
+    font-size: 15px;
+    color: #333;
+    font-weight: 700;
+    margin-left: 20px;
+}
+
+#top .tabbar .tabbar-list li{
+    float: left;
+    margin: 0 10px;
+}
+
+#top .tabbar .tabbar-list a{
+    display: inline-block;
+    /* line-height: 40px; */
+    /* background-color: #f00; */
+    padding: 0 8px;
+}
+
+#top .tabbar .tabbar-list a:hover{
+    color: #ff1e32;
+}
+
+#top .tabbar .tabbar-list a.active{
+    color: #ff1e32;
+}
+
+/* 轮播图相关的样式 */
+
+#top .siwiper {
+    position: relative;
+    overflow: hidden;
+    min-width: 1100px;
+    margin-bottom: 15px;
+}
+
+#top .siwiper .banner{
+    position: relative;
+    /* z-index: -9; */
+    left:50%;
+    display: inline-block;
+    /* inline的transform无效 */
+    transform: translate(-50%);
+}
+
+/* 轮播图服务的样式 */
+#top .siwiper .service {
+    position: absolute;
+    bottom: 0;
+
+    /* 因为是脱标，应该设置宽高。 */
+    /* 也可以将宽设置为100%，相对于包含块 */
+    /* width: 100%; */
+
+    left: 0;
+    right: 0;
+    /* 将空间分配给margin，margin初始值为auto */
+    /* 公式计算 */
+    height: 45px;
+    overflow: hidden;
+}
+/* 毛玻璃效果 */
+/* 注意层级关系 */
+#top .siwiper .blur{
+
+    position: absolute;
+    /* z-index: -1; */
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    height: 45px;
+    background: url("../img/banner.jpg") 
+    center bottom;
+    filter: blur(8px);
+
+}
+/* 轮播图服务的样式 */
+#top .siwiper .service-info{
+    position: relative;
+    z-index: 1;
+    height: 45px;
+    line-height: 45px;
+}
+
+#top .siwiper .service-info li{
+    float: left;
+    margin-right: 40px;
+}
+
+#top .siwiper .service-info li a{
+    color: #fff;
+}
+#top .siwiper .service-info li a:hover{
+    text-decoration: underline;
+}
+#top .siwiper .service-info .item-last{
+    float: right;
+    margin-right: 0;
+}
+
+/* 左右的按钮 */
+
+#top .siwiper .control{
+    position: absolute;
+    height: 68px;
+    top: 40%;
+    left: 0;
+    right: 0;
+    /* background-color: #f00; */
+}
+
+#top .siwiper .control i{
+    display: none;
+    width: 34px;
+    height: 68px;
+    background-image: url("../img/kl-sprite-01.png");
+}
+
+#top .siwiper .control .prev{
+    float: left;
+    margin-left: 180px;
+    background-position: -625px -68px;
+}
+
+#top .siwiper .control .prev:hover{
+    background-position: -625px -153px;
+}
+
+
+#top .siwiper .control .next{
+    float: right;
+    background-position:-670px -67px;
+}
+
+#top .siwiper .control .next:hover{
+    background-position: -670px -153px;
+}
+
+#top .siwiper .banner:hover .control i{
+    display: block;
+}
+
+/* 轮播图上的小点 */
+
+#top .siwiper .dot{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 100px;
+}
+
+#top .siwiper .dot .dots{
+    display: inline-block;
+    margin-left: 200px;
+}
+
+#top .siwiper .dot .dots i{
+    float: left;
+    margin-right: 15px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+#top .siwiper .dot .dots .active{
+    background: #ff1e32;
+}
+
+#top .siwiper .dot .dots i:hover{
+    background:#ff1e32;
+}

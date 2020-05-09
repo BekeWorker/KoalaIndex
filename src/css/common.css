@@ -1,0 +1,107 @@
+@charset "utf-8";
+
+body{
+    font:12px/1.5 Helvetica Neue,Helvetica,Arial,Hiragino Sans GB,\5FAE\8F6F\96C5\9ED1,tahoma,simsun,\5b8b\4f53;
+    color: #999;
+    background-color: #f6f6f6;
+}
+
+.wrap{
+    width: 1100px;
+    margin: 0 auto;
+}
+
+/* 左右浮动 */
+.float-right{
+    float: right;
+}
+
+.float-left{
+    float: left;
+}
+
+/* 清除浮动 */
+.fix-clear::after{
+    content: "";
+    display: block;
+    clear: both;
+    height: 0;
+    visibility: hidden;
+}
+
+.fix-clear{
+    *zoom: 1;
+}
+
+/* 三个横线的菜单menu */
+
+.menu{
+    display: inline-block;
+}
+
+.menu i{
+    display: block;
+    width: 15px;
+    height: 2px;
+    background-color: #ddd;
+    margin-top: 3px;
+}
+.menu .first{
+    margin-top: 0px;
+}
+
+/* hover状态图片替换效果--->公共样式 */
+
+a .second-active{
+    display: none;
+}
+
+a:hover .first{
+    display: none;
+}
+
+a:hover .second-active{
+    display: inline;
+}
+
+/* line线 */
+.border-line{
+    border-top: 1px solid #e9e9e9;
+}
+
+
+/* 二维码的hover */
+.item-ar-app{
+    display: none;
+    position: absolute;
+    left: 0px;
+
+    top: 30px;
+    transform: translate(-50%);
+    left: 50%;
+}
+
+.item-ar-app .qr-app{
+    border: 1px solid #e9e9e9;
+    display:block;
+    width: 120px;
+    height: 120px;
+
+}
+
+/* 小三角 */
+
+.item-ar-app i{
+    position: relative;
+    display:block;
+    margin: 0 auto;
+    top:6px;
+
+    border-top: 1px solid #e9e9e9;
+    border-right: 1px solid #e9e9e9;
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    transform: rotate(-45deg);
+
+}

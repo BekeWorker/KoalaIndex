@@ -1,0 +1,223 @@
+@charset "utf-8";
+
+/* 广告 */
+#header .ad{
+    overflow: hidden;
+    min-width: 1000px;
+}
+
+#header .ad img{
+    position: relative;
+    transform: translate(-50%);
+    left: 50%;
+    
+}
+/* 导航 */
+#header .nav{
+    height: 30px;
+    line-height: 30px;
+    background-color: #000;
+}
+
+#header .nav a{
+    color: #999;
+    display: inline-block;
+    height: 30px;
+}
+
+#header .nav a:hover{
+    color: #fff;
+}
+
+/* 导航左侧 */
+#header .nav-left{
+    float: left;
+}
+
+#header .welcome{
+    float: left;
+    margin-right: 30px;
+}
+
+#header .nav-left ul{
+    float:left;
+}
+
+#header .nav-left ul li{
+    float:left;
+    margin-right: 30px;
+}
+
+#header .nav-left ul li .nav-ar-app{
+    position: relative;
+}
+#header .nav-left ul li .nav-ar-app:hover .item-ar-app{
+    display: block;
+}
+
+
+/* 导航右侧 */
+#header .nav-right{
+    float: right;
+}
+
+/* 导航右侧组1 */
+#header .nav-right .group1{
+    float: left;
+    margin-right: 10px;
+}
+
+#header .nav-right .group1 li{
+    float: left;
+    margin-left: 30px;
+}
+
+/* 导航右侧组2 */
+#header .nav-right .group2{
+    float: right;
+}
+
+#header .nav-right .group2 li{
+    float: left;
+}
+
+#header .nav-right .group2 a{
+    padding: 0 16px;
+}
+
+#header .nav-right .group2 a:hover{
+    background-color: #fff;
+    color: #ff1e32;
+
+}
+
+#header .nav .group2 i{
+    position: relative;
+    top:2px;
+    /* ???????????????为啥把i设为dib后i就居中了 */
+    display: inline-block;
+    border: 4px solid #999;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+
+    transform-origin: center 2px;
+    
+    
+}
+#header .nav .group2 a:hover i{
+    border-top-color: #ff1e32;
+    transform: rotate(180deg);
+    transition: transform .5s ease;
+}
+
+/* logo-search-cart */
+#header .user-operating{
+    /* 等分行距 */
+    /* line-height: 100px; */
+    height: 100px;
+    background-color: #fff;
+}
+
+#header .user-operating .wrap{
+    position: relative;
+    height: 100px;
+}
+/* logo */
+#header .user-operating .logo img{
+    position: absolute;
+    top: 50%;
+    transform: translate(0,-50%);
+}
+/* 使图片垂直居中 */
+#header .operating-right{
+    position: relative;
+    float: right;
+    top: 50%;
+    transform: translate(0,-50%);
+}
+/* 搜索框 */
+#header .user-operating .search{
+    display: inline-block;
+    margin: 6px 40px 0 0;
+    width: 473px;
+    height: 36px;
+    border: 2px solid #ff1e32;
+    border-radius: 40px;
+    background-color: #fff;
+}
+
+#header .user-operating .search i{
+    float: left;
+    width: 14px;
+    height: 14px;
+    background-image: url("../img/kl-sprite-01.png");
+    background-position: -466px -667px;
+
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+    margin-left: 10px;
+    
+}
+/* 搜索框中的表单 */
+#header .user-operating .search input{
+   
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+
+    margin-left: 30px;
+    padding:4px 20px 4px 0px;
+
+    height: 24px;
+    width: 361px;
+}
+/* 表单占位符 */
+#header .user-operating .search input::placeholder{
+    font-size: 14px;
+    font-style: italic;
+    color: #999;
+}
+
+#header .user-operating .search a{
+    float: right;
+    width: 60px;
+    height: 40px;
+    background-color: #ff1e32;
+    border-radius: 40px;
+    margin: -2px -2px 0 0;
+
+    background-image: url("../img/icon-search.png");
+    background-repeat: no-repeat;
+    /* 背景图片的居中 */
+    background-position: center center;
+}
+
+/* cart */
+#header .operating-right .cart{
+    
+   display: inline-block;
+
+}
+#header .operating-right .cart a{
+    float: right;
+    width: 106px;
+    height: 36px;
+    line-height: 36px;
+    border-radius: 40px;
+    border:2px solid #ff1e32;
+
+    margin: 6px 100px 0 0;
+
+    background-image: url("../img/shopcart-icon.png");
+    background-repeat: no-repeat;
+    background-position: 20px center;
+}
+
+#header .operating-right .cart span{
+    font-size: 14px;
+    margin-left: 45px;
+}

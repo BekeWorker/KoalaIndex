@@ -1,0 +1,302 @@
+@charset "utf-8";
+
+/* 猜你喜欢样式 */
+#footer .guess-like{
+    padding-bottom:80px;
+}
+#footer .guess-like .like h2{
+    padding: 20px 0 5px;
+    font-size: 13px;
+    color: #666;
+    font-weight: normal;
+}
+
+#footer .guess-like .like h2 strong{
+    color: #333;
+    font-size: 22px;
+    padding-right: 10px;
+}
+
+#footer .guess-like .like .product{
+    margin-right: -20px;
+}
+
+#footer .guess-like ul li{
+    float: left;
+    width: 260px;
+    height: 382px;
+    margin-right:20px ;
+    /* background-color: #f0f; */
+    
+}
+
+#footer .guess-like ul li .a-item1{
+    display: block;
+    width: 258px;
+    height: 258px;
+    line-height: 258px;
+    border: 1px solid #e9e9e9;
+    background-color: #fff;
+    text-align: center;
+
+}
+
+#footer .guess-like ul li p{
+    margin: 7px 0 14px;
+    padding-right: 30px;
+}
+
+#footer .guess-like ul li p a{
+    color: #333;
+    font-size: 16px;
+    font-weight: 700;
+    
+}
+
+#footer .guess-like ul li .a-item1 img{
+    display: inline-block;
+    
+    width: 180px;
+    height: 180px;
+}
+/* 价格的样式 */
+#footer .guess-like ul li .price{
+    position: relative;
+}
+
+#footer .guess-like ul li .price .first{
+    float: left;
+    color: #ff1e32;
+}
+
+#footer .guess-like ul li .price strong{
+    font-size: 20px;
+    color: #ff1e32;
+    padding-right: 10px;
+}
+
+#footer .guess-like ul li .price span{
+    color: #999;
+    text-decoration: line-through;
+}
+
+#footer .guess-like ul li .price a{
+    position: absolute;
+    right: 0px;
+    padding: 8px 15px 0 0;
+}
+
+/* ensure保证的样式 */
+
+#footer .ensureTopBg{
+    background-color: #eaeaea;
+    padding-top: 80px;
+}
+
+#footer .ensureTopBg .ensure{
+    background-color: #fff;
+    padding: 49px 0;
+}
+
+#footer .ensureTopBg .ensure-info ul li{
+    float: left;
+    width: 233px;
+    margin-left: 42px;
+    color: #333;
+}
+
+#footer .ensureTopBg .ensure-info ul li .icon{
+    float: left;
+    width: 44px;
+    height: 44px;
+    line-height: 44px;
+    border: 2px solid #d6d6d6;
+    border-radius: 50%;
+    text-align: center;
+    margin-right: 5px;
+    
+}
+
+#footer .ensureTopBg .ensure-info .positive{
+    font-size: 20px;
+    font-weight: 700;
+    
+}
+
+#footer .ensureTopBg .ensure-info ul li strong{
+    display: block;
+    font-size: 18px;
+}
+#footer .ensureTopBg .ensure-info ul li span{
+    display: block;
+}
+
+
+/* server的样式 */
+#footer .server{
+    background-color: #fff;
+}
+
+#footer .server .wrap{
+    padding: 45px 0 90px;
+    border-top: 1px solid #e9e9e9;
+    height: 130px;
+}
+/* 左边的logo */
+#footer .server .server-logo{
+    float: left;
+    padding: 0 40px 0 0;
+}
+
+#footer .server .server-logo .footer-logo{
+    margin-bottom: 20px;
+}
+
+#footer .server .server-logo .contact a{
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    margin-left: 10px;
+}
+
+/* 微信iocn */
+#footer .server .server-logo .contact .weixin{
+    position: relative;
+}
+/* 微博icon */
+
+#footer .server .server-logo .contact .weibo{
+    position: relative;
+}
+
+
+
+/* #footer .server .server-logo .contact .item-ar-app{
+    display: none;
+    position: absolute;
+    left: 0px;
+
+    top: 30px;
+    transform: translate(-50%);
+    left: 50%;
+}
+
+#footer .server .server-logo .contact
+.qr-app{
+    border: 1px solid #e9e9e9;
+    display:block;
+    width: 120px;
+    height: 120px;
+
+} */
+
+/* 小三角 */
+
+/* #footer .server .server-logo .contact .item-ar-app i{
+    position: relative;
+    display:block;
+    margin: 0 auto;
+    top:6px;
+
+    border-top: 1px solid #e9e9e9;
+    border-right: 1px solid #e9e9e9;
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    transform: rotate(-45deg);
+
+} */
+
+
+#footer .server .server-logo .contact 
+.weixin:hover .item-ar-app,
+#footer .server .server-logo .contact 
+.weibo:hover .item-ar-app
+{
+    display: block;
+}
+
+/* 中间的信息 */
+#footer .server .server-info{
+    float: left;
+}
+
+#footer .server .server-info .item h2{
+    font-size: 18px;
+    font-weight: normal;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+
+#footer .server .server-info .item{
+    float: left;
+    padding: 0 0 0 25px;
+}
+
+#footer .server .server-info .item ul li{
+    line-height: 29px;
+}
+
+/* 右侧二维码 */
+#footer .server .server-qr .item-last{
+    float: right;
+    margin: 0 0 10px 10px;
+    text-align: center;
+}
+#footer .server .server-qr .item-last h5{
+    font-weight: normal;
+}
+
+/* police警察样式 */
+#footer .police{
+    text-align: center;
+    /* height: 153px; */
+    padding: 20px 0;
+    background-color: #333;
+    color: #c2c2c2;
+}
+#footer .police a{
+    color: #c2c2c2;
+}
+
+#footer .police a:hover{
+    text-decoration: underline;
+}
+
+#footer .police span{
+    margin-left: 20px;
+}
+
+
+#footer .police ul{
+    margin-top: 20px;
+}
+#footer .police ul li{
+    height: 25px;
+    line-height: 25px;
+}
+
+#footer .police ul li i{
+    position: relative;
+    bottom: 2px;
+    display: inline-block;
+    width: 4px;
+    border-top:1px solid #c2c2c2;
+}
+
+#footer .police ul li .icon-police{
+    position: relative;
+    left: 15px;
+}
+
+
+#footer .police ul .item-last{
+    margin-top: 5px;
+}
+
+#footer .police ul .item-last img{
+    height: 30px;
+    margin-right: 10px;
+    
+}
